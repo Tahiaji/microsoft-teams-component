@@ -2,10 +2,10 @@
 yii2 component for Microsoft Teams Message Card and Adaptive Cart
 
 Based on this repositories:
-https://github.com/laravel-notification-channels/microsoft-teams
-https://github.com/sebbmeyer/php-microsoft-teams-connector
+- https://github.com/laravel-notification-channels/microsoft-teams
+- https://github.com/sebbmeyer/php-microsoft-teams-connector
 
-This is not a complete package, just an implementation example.
+This is not a complete package, just an implementation example. And also, there may be references to classes that are not provided here.
 
 ```php
 $message = AdaptiveCard::create()    
