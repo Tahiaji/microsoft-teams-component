@@ -24,8 +24,8 @@ $message = AdaptiveCard::create()
     ->textMention($email, 'Roman Bat\'kovich')
     ->image('https://adaptivecards.io/content/cats/1.png')
     ->textMention($email, 'Any Name For Mention')
-    ->button('Button #1', 'https://acreview.loc/booking/update?id=5100')
-    ->button('Button #2', 'https://acreview.loc/booking/update?id=5100');
+    ->button('Button #1', $url1)
+    ->button('Button #2', $url2);
 Yii::$app->microsoftTeams->send($message);
 ```
 
